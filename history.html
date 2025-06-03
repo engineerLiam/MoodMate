@@ -19,15 +19,21 @@
           <a href="profile.html">Профиль</a>
       </header>
 
-      <main>
-        <section class="history-section">
-          <h2>История настроения</h2>
-          <canvas id="moodChart" width="400" height="200"></canvas>
-
-          <h3>Список записей</h3>
-          <ul id="moodList"></ul>
-        </section>
-      </main>
+      <main class="history-layout">
+  <section class="history-section">
+    <h2>История настроения</h2>
+    <div class="chart-container">
+  <canvas id="moodChart" width="400" height="200"></canvas>
+</div>
+<div>
+    <h3>Список записей</h3>
+    <ul id="moodList"></ul>
+    <div class="history-image">
+    <img src="img/history-illustration.svg" alt="График настроения" />
+  </div>
+  </div>
+  </section>
+</main>
 
       <footer>
         <p>© 2025 MoodMate</p>

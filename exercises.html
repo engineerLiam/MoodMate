@@ -20,17 +20,26 @@
       </header>
 
       <main>
-        <section class="exercises-section">
-          <h2>Упражнения для ума и тела</h2>
-
-          <div class="exercise-list">
-            <button onclick="showExercise('breathing')">Дыхательное</button>
-            <button onclick="showExercise('grounding')">Заземление</button>
-            <button onclick="showExercise('stretching')">Растяжка</button>
+        <section class="exercises-section exercises-with-image">
+          <div class="exercise-image">
+            <img
+              src="img/exercise-illustration.svg"
+              alt="Иллюстрация упражнений"
+            />
           </div>
 
-          <div id="exerciseContent" class="exercise-content">
-            <p>Выберите упражнение, чтобы увидеть инструкции.</p>
+          <div class="exercise-content-wrapper">
+            <h2>Упражнения для ума и тела</h2>
+
+            <div class="exercise-list">
+              <button onclick="showExercise('breathing')">Дыхательное</button>
+              <button onclick="showExercise('grounding')">Заземление</button>
+              <button onclick="showExercise('stretching')">Растяжка</button>
+            </div>
+
+            <div id="exerciseContent" class="exercise-content">
+              <p>Выберите упражнение, чтобы увидеть инструкции.</p>
+            </div>
           </div>
         </section>
       </main>
